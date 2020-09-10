@@ -8,7 +8,7 @@ const works = [
     },
     {
         repoName : 'personalWebTest',
-        repoURL : '',
+        repoURL : 'https://ericmartinqlz.github.io/personalWebTest/',
         ghURL: 'https://github.com/ericmartinqlz/personalWebTest',
         descriptive : `Latihan membuat personal web (Only Testing). 
         Still learning CSS, JS, and WebComponent.`
