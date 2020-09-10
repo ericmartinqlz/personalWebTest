@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/styles/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+        <title>Eric Martin</title>
+    </head>
+    <body>
+        <header id="home">
+            <!-- Navbar - WebComponents AppBar + Jumbotron - WebComponents JumboTron -->
+            <app-bar></app-bar>
+            <jumbo-tron></jumbo-tron>
+        </header>
+
+        <main>
+            <section id="about">
+                <h2 class="cont-title hand-writing">&#8226; About me &#8226;</h2>
+                <div class="cont-info about-cont container">
+                    <div class="about-text">
+                        <p>
+                            I am a Computer Science student at the University of North Sumatra.
+                            Since childhood, I was very interested in technology. I am very excited about web development and also have a dream in the virtual reality field.
+                        </p>
+                        <div class="about-icon">
+                            <div><a href="https://www.instagram.com/ericmartinqlz/"><i class="fa-2x fab fa-instagram"></i></a></div>
+                            <div><a href="https://www.linkedin.com/in/eric-martin-965925195/"><i class="fa-2x fab fa-linkedin"></i></a></div>
+                            <div><a href="https://github.com/ericmartinqlz"><i class="fa-2x fab fa-github"></i></a></div>
+                            <div><a href="mailto:ermapes2@gmail.com"><i class="fa-2x fab fa-google"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="about-img">
+                        <img src="assets/images/undraw_static_website_0107.svg" width="100%" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section id="skill">
+                <h2 class="cont-title hand-writing">&#8226; Skill &#8226;</h2>
+                <div class="cont-info skill-cont container">
+                    <div class="skill-img">
+                        <img src="assets/images/undraw_certificate_343v.svg" width="100%" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis quis vero repellat necessitatibus sapiente, nulla perferendis praesentium, quaerat modi minima ducimus, dolores nesciunt! Officia voluptatibus dolor provident consequuntur quam nostrum.</p>
+                </div>
+            </section>
+
+            <!-- Work - WebComponents RepoList -->
+            <section id="work">
+                <h2 class="cont-title hand-writing">&#8226; My Work &#8226;</h2>
+                <repo-list class="cont-info work-cont container"></repo-list>
+            </section>
+        </main>
+
+        <footer>
+            <p>Made by Eric Martin. 2020</p>
+        </footer>
+        
+        <script src="assets/scripts/index.js" type="module"></script>
+    </body>
+</html>

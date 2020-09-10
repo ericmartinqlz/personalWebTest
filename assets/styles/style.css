@@ -1,0 +1,236 @@
+/* Fonts - Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body{
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.container{
+    padding: 0 100px;
+}
+
+.cont-title{
+    font-size: 42pt;
+    font-weight: 300;
+}
+
+.bold{
+    font-weight: 500;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.muncul{
+    opacity: 1 !important;
+}
+
+.netral-position{
+    transform: translate(0%, 0%) !important;
+}
+
+.hand-writing{
+    font-family: 'Sacramento', cursive !important;
+}
+
+/* Header */
+header{
+    background-color: #ebebeb;
+    padding-bottom: 75px;
+}
+
+/* Section */
+section{
+    margin: 25px 0;
+    color: #2e2e2e;
+}
+
+section .cont-title{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+section .cont-info{
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+}
+
+/* About */
+section .about-cont{
+    display: flex;
+}
+
+section .cont-info p{
+    font-size: 16pt;
+}
+
+section .about-cont .about-text{
+    width: 60%;
+    padding-right: 50px;
+}
+
+section .cont-info .about-img{
+    width: 40%;
+}
+
+section .about-cont .about-icon{
+    display: flex;
+    margin-top: 50px ;
+}
+
+section .about-cont .about-icon div{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    background: #1273f3;
+    border-radius: 30%;
+    margin: 0 10px;
+    transition-duration: 0.3s;
+    box-shadow: 0 5px 15px -5px #00000070;
+    cursor: pointer;
+}
+section .about-cont .about-icon div:hover{
+    background: #ebebeb;
+}
+section .about-cont .about-icon div:hover a{
+    color: #1273f3;
+}
+section .about-cont .about-icon div:hover i{
+    transform: scale(1.2, 1.2);
+}
+
+section .about-cont .about-icon a{
+    margin: auto;
+    color: white;
+    text-decoration: none;
+}
+
+section .about-cont .about-icon i{
+    transform: scale(0.8, 0.8);
+}
+
+/* Skill */
+section .skill-cont{
+    display: flex;
+}
+
+section .skill-cont p{
+    text-align: right;
+    width: 60%;
+    padding-left: 50px;
+}
+
+section .skill-cont .skill-img{
+    width: 40%;
+}
+
+/* Footer */
+footer{
+    background: #ebebeb;
+    text-align: center;
+    font-weight: 500;
+    padding: 25px 0;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px){
+    .container{
+        padding: 0px 50px;
+    }
+
+    .cont-title{
+        font-size: 35pt;
+        font-weight: 300;
+    }
+
+    header{
+        padding-bottom: 50px;
+    }
+
+    section .cont-info{
+        padding-bottom: 25px;
+        /* margin-bottom: 75px; */
+    }
+
+    section .about-cont{
+        display: block;
+
+    }
+
+    section .cont-info p{
+        font-size: 14pt;
+        text-align: center;
+        width: 100%;
+    }
+
+    section .about-cont .about-text{
+        width: 100%;
+        padding-right: 0;
+    }
+
+    section .about-cont .about-icon{
+        justify-content: center;
+        margin: 25px 0;
+    }
+
+    section .about-cont .about-icon div{
+        width: 50px;
+        height: 50px;
+    }
+    
+    section .about-cont .about-img{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    section .skill-cont{
+        flex-wrap: wrap;
+    }
+    
+    section .skill-cont p{
+        order: 1;
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+        padding-bottom: 25px;
+    }
+    
+    section .skill-cont .skill-img{
+        order: 2;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width:576px){
+    .container{
+        box-sizing: border-box;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .cont-title{
+        font-size: 28pt;
+        font-weight: 300;
+    }
+
+    section .cont-info p{
+        font-size: 12pt;
+    }
+}
