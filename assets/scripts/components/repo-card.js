@@ -10,7 +10,7 @@ class RepoCard extends HTMLElement{
 
     render(){
         this.innerHTML = `
-        <div class="card" onclick="openURL('${this._work.repoURL}')">
+        <div class="card">
             <div class="card-title">
                 <h3>${this._work.repoName}</h3>
             </div>

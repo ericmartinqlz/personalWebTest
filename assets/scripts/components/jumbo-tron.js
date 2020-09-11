@@ -84,7 +84,7 @@ class JumboTron extends HTMLElement {
             
                 jumbo-tron .profile-title{
                     text-align: center;
-                    padding-top: 50px;
+                    padding-top: 125px;
                 }
             
                 jumbo-tron .profile-title h1{

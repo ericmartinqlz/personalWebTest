@@ -76,7 +76,8 @@ class AppBar extends HTMLElement {
 
                 @media screen and (max-width: 768px){
                     nav{
-                        position: relative;
+                        position: fixed;
+                        width: 100%;
                         background: white;
                         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
                         z-index: 9999;
