@@ -78,6 +78,7 @@ class AppBar extends HTMLElement {
                     nav{
                         position: fixed;
                         width: 100%;
+                        height: 62.5px;
                         background: white;
                         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
                         z-index: 9999;
@@ -90,7 +91,7 @@ class AppBar extends HTMLElement {
                         flex-direction: column;
                         position: absolute;
                         width: 94%;
-                        top: 75px;
+                        top: 62.5px;
                         left: 3%;
                         text-align: center;
                         border-radius: 0 0 20px 20px;
@@ -119,6 +120,7 @@ class AppBar extends HTMLElement {
                 
                     #menu-toggle{
                         display: flex;
+                        height: 17.5px;
                     }
                 
                     #unclicked-nav{
