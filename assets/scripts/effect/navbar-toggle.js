@@ -16,8 +16,8 @@ elementHamburger.addEventListener('click', () => {
 
 function dropNavbar() {
     // Hamburger Icon Animation
-    toggleStyle(elementHamburger.children.item(0), 'transform', 'rotate(45deg) translate(-1px, -1px)');
-    toggleStyle(elementHamburger.children.item(2), 'transform', 'rotate(-45deg) translate(-1px, 0px)');
+    toggleStyle(elementHamburger.children.item(0), 'transform', 'rotate(45deg) translate(-1px, -2px)');
+    toggleStyle(elementHamburger.children.item(2), 'transform', 'rotate(-45deg) translate(-1px, 1px)');
     toggleStyle(elementHamburger.children.item(1), 'opacity', '0');
 
     // Navbar Drop Animation
