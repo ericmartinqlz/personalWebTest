@@ -1,7 +1,7 @@
 const elementHamburger = document.getElementById('menu-toggle');
 const elementNavbar = document.getElementById('nav-toggle');
 const elementUnclickedNav = document.getElementById('unclicked-nav');
-const elementLinks = document.getElementsByTagName('a');
+const elementLinks = elementNavbar.getElementsByTagName('a');
 
 elementHamburger.addEventListener('click', () => {
     dropNavbar();
